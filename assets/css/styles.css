@@ -1,0 +1,206 @@
+:root{
+  --dark-color:#191919;
+  --white-color:#ffffff;
+  --purple-color: #752995;
+  --blue-color: #00b2b1;
+  --gray-color:#828282;
+  --light-color:#f3f3f3;
+}
+
+.purple {
+    color: var(--purple-color);
+  }
+  .container-fluid{
+      padding-left: 0;
+      padding-right: 0;
+  }
+  .btn-primary {
+    color: #fff;
+    background-color:var(--blue-color);
+    border-color: var(--purple-color);
+  }
+  .btn-primary:hover {
+    color: #fff;
+    background-color:var(--purple-color) ;
+    border-color: var(--purple-color);
+  }
+  .btn-check:focus + .btn-primary, .btn-primary:focus {
+    color: #fff;
+    background-color: #0b5ed7;
+    border-color: #0a58ca;
+    box-shadow: 0 0 0 0.25rem rgba(49, 132, 253, 0.5);
+  }
+
+  .btn-outline-primary {
+    color: var(--purple-color);
+    border-color: var(--purple-color);
+  }
+  .btn-outline-primary:hover {
+    color: #fff;
+    background-color: var(--purple-color);
+    border-color: #6f42c1;
+  }
+  .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
+    box-shadow: 0 0 0 0.25rem rgba(13, 110, 253, 0.5);}
+
+    .header-logo img{
+        max-width: 270px;
+    }
+    .agenda-cita{
+      background-image: url(../img/fondo.jpg);
+      padding: 2rem;
+      
+    }
+    .agenda-cita h1{
+      font-size:1.5rem ;
+      font-weight: 700;
+      
+    }
+    .agenda-cita h3{
+      font-size:1.2rem ;
+    }
+    .agenda-promo{
+      background-color: var(--purple-color);
+      padding: 3rem;
+    }
+    .agenda-promo h1{
+      font-size:1.5rem ;
+      font-weight: 700;
+      color: #fff;
+      text-shadow: 3px 3px 3px var(--dark-color);
+    }
+    .agenda-promo img{
+      border-width: 10px solid var(--white-color);
+    }
+    .title-section{
+      color: var(--purple-color);
+      text-shadow: 2px 2px 3px var(--dark-color);
+    }
+    .card-img-top{
+      margin:0 auto
+
+    }
+    .card{
+      border: 0px;
+      text-align: center;
+    }
+    .card img{
+      max-width: 180px;
+    }
+    
+    footer{background-image: url(../img/fondo.jpg);}
+
+.footfondo{
+        background-color: rgba(117, 41, 149, 0.4);
+}
+.card h5{
+  color: var(--purple-color);
+  font-size: 1.4rem;
+}
+
+.foot h3{
+  color: var(--white-color);
+}
+.sedes{
+  color: var(--white-color)
+}
+.icon-login{
+  width: 30px;
+  font-size: 30pt;
+  size: 30px;
+  font-weight: 30px;
+}
+.contenedor-icono svg{
+  width: 50px;
+  height: 50px;
+  color:var(--purple-color);
+  border: 3px solid var(--gray-color);
+  padding: 3px;
+  border-radius: 50%;
+}
+a:link{
+  text-decoration: none;
+  color: none;
+}
+
+/*log in-------------------------------------------------*/
+.header-logo-login img{
+  max-width:fit-content;
+  width: 86%;
+}
+.container-gris{
+ background-color: rgba(97, 92, 92, 0.2);
+  width: 80%;
+  height: auto;
+}
+.container-fluid{
+ /* background-color: rgb(196, 119, 119);
+ 
+ en html border border-primary*/
+}
+.container-login{
+ /* border: 2px solid rgb(17, 233, 17);*/
+}
+.contenedor-icono{
+  margin: 50px 0;
+}
+.acciones-login{
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+  margin: 20px 0;
+}
+.btn-login, .checkbox-login{
+  margin: 10px 0;
+  color: var(--dark-color);
+  font-weight: bold;
+}
+.btn-login2{
+  background-color: var(--purple-color);
+}
+.header-logo-login{
+  width: 100%;
+}
+.btn-login3:hover{
+  color: var(--dark-color);
+    background-color:var(--light-color) ;
+    border-color: var(--blue-color);
+}
+
+/*Equipo-------------------------------------------------*/
+.titulo-secciones{
+  color: var(--purple-color);
+  text-shadow: 1px 1px 1px var(--dark-color);
+}
+.nombre-doctor{
+  color: var(--purple-color);
+}
+ /*Contacto-------------------------------------------------*/
+ .mapa{
+   width: 500px;
+   height: 500px;
+ }
+
+ .formulario{
+   border: 2px solid var(--purple-color);
+   background-color: rgba(117, 41, 149, 0.4);
+ }
+
+ /*-------------------------Tips----------------------*/
+ .animal-tips{
+   width: 40%;
+ }
+ .sec-tips{
+   background-color: rgba(117, 41, 149, 0.4);
+   border: 2px solid var(--purple-color);
+   border-radius: 7px;
+ }
+ /*-------------------------Dashboard----------------------*/
+ .dash-imguser{
+   width: 60px;
+   border: 2px solid var(--purple-color);
+   margin: 0 10px;
+ }
+ .dash-userwelcome{
+   color: var(--purple-color);
+ }
