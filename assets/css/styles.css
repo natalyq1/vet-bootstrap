@@ -6,6 +6,9 @@
   --gray-color:#828282;
   --light-color:#f3f3f3;
 }
+html{
+  
+}
 
 .purple {
     color: var(--purple-color);
@@ -88,7 +91,8 @@
       max-width: 180px;
     }
     
-    footer{background-image: url(../img/fondo.jpg);}
+    footer{background-image: url(../img/fondo.jpg);
+    overflow: hidden;}
 
 .footfondo{
         background-color: rgba(117, 41, 149, 0.4);
