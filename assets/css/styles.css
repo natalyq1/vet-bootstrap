@@ -175,6 +175,7 @@ a:link{
 .titulo-secciones{
   color: var(--purple-color);
   text-shadow: 1px 1px 1px var(--dark-color);
+  
 }
 .nombre-doctor{
   color: var(--purple-color);
