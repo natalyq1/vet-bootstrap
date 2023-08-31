@@ -14,6 +14,10 @@ html {
   overflow-x: hidden;
 }
 
+i {
+  margin-right: 6px;
+}
+
 /*------------header--------*/
 header {
   margin: 1em 0;
@@ -31,7 +35,12 @@ header {
 .header-buttons {
   display: flex;
   gap: 1em;
+  padding-left: 2em;
   /*border: 2px solid green;*/
+}
+
+.header-buttons i {
+  display: none;
 }
 
 
@@ -81,7 +90,7 @@ header {
 
 .agenda-cita {
   padding: 1em;
-  margin: 1em ;
+  margin: 1em;
 }
 
 .agenda-cita h1 {
@@ -109,18 +118,24 @@ header {
   display: none;
 }
 
+/*------servicios*/
+
 .title-section {
   color: var(--purple-color);
-  text-shadow: 2px 2px 3px var(--dark-color);
+  font-size: 1.8em;
+  font-weight: 700;
 }
 
 .card-img-top {
-  margin: 0 auto
+  margin: 0 auto;
+  height: 100px;
+  width: auto;
 }
 
 .card {
   border: 0px;
   text-align: center;
+  margin: 0 3em;
 }
 
 .card img {
@@ -282,14 +297,30 @@ a:link {
     flex-direction: row;
   }
 
-  .agenda-cita{
+  .agenda-cita {
     margin: 2em 2em 0 2em;
   }
-  .agenda-promo{ 
+
+  .agenda-promo {
     padding: 1em 4em 0 0;
   }
+
   .agenda-promo img {
     display: block;
     border-width: 10px solid var(--white-color);
+  }
+
+  .header-buttons {
+    padding-left: 0;
+    /*border: 2px solid green;*/
+  }
+
+  .header-buttons button {
+    display: flex;
+    align-items: center;
+  }
+
+  .header-buttons i {
+    display: flex;
   }
 }
