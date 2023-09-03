@@ -12,6 +12,9 @@
   <!--icono bootstrap-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
+  <!--Icons fontawsome-->
+  <script src="https://kit.fontawesome.com/78c9eea544.js" crossorigin="anonymous"></script>
+
   <title>Index</title>
 </head>
 
@@ -23,21 +26,23 @@
       <article>
         <div class="header-logo align-items-center">
           <div class=" col-12 col-md-6 col-xl-9 ">
+            <a href="index.html">
             <img src="./assets/img/logo.jpg">
+          </a>
           </div>
         </div>
       </article>
-      <div class="header-buttons col-6 col-md-4 col-xl-2">
+      <div class="header-buttons col-5 col-md-4 col-xl-2">
         <a href="./views/dashboard.html">
           <button type="button" class="btn btn-primary">
-            <i class="bi bi-person-video2 me-1"></i>
+            <i class="bi bi-person-video2 "></i>
             Registrar
           </button>
         </a>
 
         <a href="./views/dashboard.html">
           <button type="button" class="btn btn-outline-primary">
-            <i class="bi bi-person-fill  me-1"></i>Ingresar
+            <i class="bi bi-person-fill  "></i>Ingresar
           </button>
         </a>
       </div>
@@ -46,7 +51,7 @@
   </div>
 
 
-  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:indigo">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#752995">
     <div class="container-fluid">
       <a class="navbar-brand" href="#"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -56,7 +61,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="./views/equipo.html">Equipo</a>
@@ -72,8 +77,8 @@
           </li>
         </ul>
         <form class="d-flex">
-          <input class="form-control" type="search" placeholder="Buscar" aria-label="Search">
-          <button class="btn btn-outline-success me-3" type="submit">Buscar</button>
+          <input class="form-control" type="search" placeholder="..." aria-label="Search">
+          <button class="btn btn-primary ms-2" type="submit">Buscar</button>
         </form>
       </div>
     </div>
@@ -81,14 +86,18 @@
 
   <section class="mt-1">
     <article class="agenda">
-      <div class="agenda-cita col-10 col-md-6 col-xl-8 ">
+      <div class="agenda-cita col-12 col-md-6 col-xl-8 ">
         <h1>Agenda tu cita ahora para reclamar tu primer baño gratis
         </h1>
-        <p>¡Bienvenido a Animalandia Pets! Estamos emocionados de cuidar a tus queridas mascotas. ¿Por qué no reservas una cita
-        ahora mismo para consentir a tu peludo amigo? Al agendar, te regalamos el primer baño, porque creemos que cada nuevo
-        amigo merece un inicio refrescante. Nuestro equipo de expertos se encargará de mimar a tu mascota con amor y cuidado. Ya
-        sea una limpieza refrescante, un corte elegante o un tratamiento especial, ¡tenemos todo cubierto! ¡Únete a la familia
-        de Animalandia Pets y experimenta el lujo del cuidado de mascotas como nunca antes!
+        <p>¡Bienvenido a Animalandia Pets! Estamos emocionados de cuidar a tus queridas mascotas. ¿Por qué no reservas
+          una cita
+          ahora mismo para consentir a tu peludo amigo? Al agendar, te regalamos el primer baño, porque creemos que cada
+          nuevo
+          amigo merece un inicio refrescante. Nuestro equipo de expertos se encargará de mimar a tu mascota con amor y
+          cuidado. Ya
+          sea una limpieza refrescante, un corte elegante o un tratamiento especial, ¡tenemos todo cubierto! ¡Únete a la
+          familia
+          de Animalandia Pets y experimenta el lujo del cuidado de mascotas como nunca antes!
         </p>
         <h3>Recuerda que nuestro equipo te confirmará la cita
         </h3>
@@ -98,7 +107,7 @@
 
       </div>
       <div class="agenda-promo d-flex flex-column align-items-center
-            col-12 col-md-6 col-xl-4">
+            col-12 col-md-6 col-xl">
         <h1 class="mb-1">GRATIS PRIMER BAÑO</h1>
         <img src="./assets/img/golden.jpg" class="border border-white rounded-circle mt-2">
       </div>
@@ -110,7 +119,7 @@
   <h2 class="title-section text-center mb-5 mt-3">Servicios</h2>
   <section id="servicios">
     <div class="row">
-      
+
 
       <div class="col-12 col-md-4">
         <div class="card">
@@ -127,12 +136,13 @@
           <img src="./assets/img/vacunacion.png" class="card-img-top" alt="...">
           <div class="card-body">
             <h5 class="card-title">Vacunación y Desparasitación</h5>
-            <p class="card-text">Programa de vacunación adecuado para perros, gatos y otras mascotas, junto con desparasitación interna y externa.</p>
+            <p class="card-text">Programa de vacunación adecuado para perros, gatos y otras mascotas, junto con
+              desparasitación interna y externa.</p>
           </div>
         </div>
       </div>
 
-<div class="col-12 col-md-4">
+      <div class="col-12 col-md-4">
         <div class="card">
           <img src="./assets/img/paciente.png" class="card-img-top" alt="...">
           <div class="card-body">
@@ -144,41 +154,30 @@
 
     </div>
     <button type="button" class="btn btn-outline-primary mt-2 mb-4 d-flex align-items-center m-auto">
-    <i class="bi bi-plus"></i>Más servicios
+      <i class="bi bi-plus"></i>Más servicios
     </button>
   </section>
 
 
   <footer>
     <article class="footfondo">
-      <div class="row">
-        <div class="foot text-center mb-5 mt-2 col-12 col-md-4">
+      <div class="row text-center ">
+        <h2 class="title-section text-center mt-3">Contacto</h2>
+        <div class="foot mb-1 mt-2 col-12 col-md-12 col-xl-12">
 
-          <img src="./assets/img/bx-building 1.svg" alt="icono edificio">
-          <h3>Sedes</h3>
-          <p class="sedes">Sede Kennedy</p>
-          <p class="sedes">Sede Suba</p>
-          <p class="sedes">Sede Fontibón</p>
-          <p class="sedes">Sede Centro</p>
-
-
+          <p class="contact">animalandiaaets@gmail.com</p>
+          <p class="contact">3192886654</p>
+          <p class="contact">Fontibón, Bogotá</p>
+          <p class="contact">Calle 106 no. 20-40</p>
         </div>
-        <div class="foot text-center mb-5 mt-2 col-12 col-md-4">
-          <img src="./assets/img/bx-building 1.svg" alt="icono edificio">
-          <h3>Sedes</h3>
-          <p class="sedes">Sede Kennedy</p>
-          <p class="sedes">Sede Suba</p>
-          <p class="sedes">Sede Fontibón</p>
-          <p class="sedes">Sede Centro</p>
-        </div>
-        <div class="foot text-center mb-5 mt-2 col-12 col-md-4">
-          <img src="./assets/img/bx-building 1.svg" alt="icono edificio">
-          <h3>Sedes</h3>
-          <p class="sedes">Sede Kennedy</p>
-          <p class="sedes">Sede Suba</p>
-          <p class="sedes">Sede Fontibón</p>
-          <p class="sedes">Sede Centro</p>
 
+        <div class="col-12 col-md-12 col-xl-12 mb-4 mt-1">
+          <div class="media-links">
+            <article><i class="fa-brands fa-instagram"></i></article>
+            <article><i class="fa-brands fa-tiktok"></i></article>
+            <article><i class="fa-brands fa-youtube"></i></article>
+            <article><i class="fa-regular fa-envelope"></i></article>
+          </div>
         </div>
       </div>
 

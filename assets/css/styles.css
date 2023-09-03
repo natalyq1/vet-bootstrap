@@ -17,6 +17,17 @@ html {
 i {
   margin-right: 6px;
 }
+i:hover {
+  cursor: pointer;
+}
+
+a{
+  cursor: pointer;
+}
+a:link {
+  text-decoration: none;
+  color: none;
+}
 
 /*------------header--------*/
 header {
@@ -24,19 +35,20 @@ header {
   display: flex;
   flex-direction: row;
   align-items: center;
-  /*border: 2px solid blue;*/
+  border: 2px solid blue;
 }
 
 .header-logo img {
   max-width: 230px;
-  /*border: 2px solid yellow;*/
+  border: 2px solid yellow;
 }
 
 .header-buttons {
   display: flex;
+  flex-direction: column;
   gap: 1em;
   padding-left: 2em;
-  /*border: 2px solid green;*/
+  border: 2px solid green;
 }
 
 .header-buttons i {
@@ -91,6 +103,7 @@ header {
 .agenda-cita {
   padding: 1em;
   margin: 1em;
+
 }
 
 .agenda-cita h1 {
@@ -104,7 +117,11 @@ header {
 
 .agenda-promo {
   background-color: var(--purple-color);
-  padding: .5em 0;
+  padding: auto 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
 }
 
 .agenda-promo h1 {
@@ -142,28 +159,28 @@ header {
   max-width: 180px;
 }
 
+/* footer*/
+
 footer {
   background-image: url(../img/fondo.jpg);
   overflow: hidden;
+  color: var(--purple-color);
 }
 
 .footfondo {
   background-color: rgba(117, 41, 149, 0.4);
 }
-
-.card h5 {
-  color: var(--purple-color);
-  font-size: 1.4rem;
+.media-links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3em;
+}
+.contact{
+  line-height: 8px;
 }
 
-.foot h3 {
-  color: var(--white-color);
-}
-
-.sedes {
-  color: var(--white-color)
-}
-
+/*
 .icon-login {
   width: 30px;
   font-size: 30pt;
@@ -179,11 +196,7 @@ footer {
   padding: 3px;
   border-radius: 50%;
 }
-
-a:link {
-  text-decoration: none;
-  color: none;
-}
+*/
 
 /*log in-------------------------------------------------*/
 .header-logo-login img {
@@ -288,7 +301,7 @@ a:link {
 
 /*----------media queries-----------*/
 
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 600px) {
   header {
     justify-content: space-between;
   }
@@ -299,10 +312,12 @@ a:link {
 
   .agenda-cita {
     margin: 2em 2em 0 2em;
+
   }
 
   .agenda-promo {
-    padding: 1em 4em 0 0;
+  border: 3px solid red;
+  padding: 1em auto;
   }
 
   .agenda-promo img {
@@ -312,6 +327,7 @@ a:link {
 
   .header-buttons {
     padding-left: 0;
+    flex-direction: row;
     /*border: 2px solid green;*/
   }
 
@@ -323,4 +339,17 @@ a:link {
   .header-buttons i {
     display: flex;
   }
+  .foot {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    justify-content: center;
+  }
+  .contact{
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 768px){
+
 }
