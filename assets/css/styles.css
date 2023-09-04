@@ -139,7 +139,6 @@ header {
 
 .title-section {
   color: var(--purple-color);
-  font-size: 1.8em;
   font-weight: 700;
 }
 
@@ -253,14 +252,17 @@ footer {
 }
 
 /*Equipo-------------------------------------------------*/
-.titulo-secciones {
-  color: var(--purple-color);
-  text-shadow: 1px 1px 1px var(--dark-color);
-
-}
 
 .nombre-doctor {
   color: var(--purple-color);
+}
+.services img{
+  width: 100px;
+  height: 100px;
+}
+.products img {
+  width: auto;
+    height: 50px;
 }
 
 /*Contacto-------------------------------------------------*/
