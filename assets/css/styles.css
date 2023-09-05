@@ -370,4 +370,19 @@ footer {
   }
 }
 
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+  .header-buttons {
+      padding-left: 0;
+      flex-direction: row;
+      /*border: 2px solid green;*/
+    }
+  
+    .header-buttons button {
+      display: flex;
+      align-items: center;
+    }
+  
+    .header-buttons i {
+      display: flex;
+    }
+}
