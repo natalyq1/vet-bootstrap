@@ -9,13 +9,16 @@
   <!--bootstrap-->
   <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
   <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
+  <!--bootstrap-->
+  <link rel="stylesheet" type="text/css" href="../assets/css/bootstrap.css">
+  <link rel="stylesheet" type="text/css" href="../assets/css/styles.css">
   <!--icono bootstrap-->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
 
   <!--Icons fontawsome-->
   <script src="https://kit.fontawesome.com/78c9eea544.js" crossorigin="anonymous"></script>
 
-  <title>Equipo</title>
+  <title>Agendar cita</title>
 </head>
 
 <body>
@@ -41,10 +44,10 @@
         </a>
 
         <!--<a href="../views/contacto.html">
-                <button type="button" class="btn btn-outline-primary">
-                  <i class="bi bi-person-fill  "></i>Ingresar
-                </button>
-              </a>-->
+          <button type="button" class="btn btn-outline-primary">
+            <i class="bi bi-person-fill  "></i>Ingresar
+          </button>
+        </a>-->
       </div>
 
     </header>
@@ -65,10 +68,10 @@
             <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="../views/equipo.html">Equipo</a>
+            <a class="nav-link" href="../views/equipo.html">Equipo</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="../views/agenda.html">Agenda tu cita</a>
+            <a class="nav-link active" href="../views/agenda.html">Agenda tu cita</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="../views/servicios.html">Servicios</a>
@@ -86,39 +89,47 @@
   </nav>
 
 
-  <div class="">
-    <img src="../assets/img/servicios2.png" class="d-block w-100" alt="Imagen referente a los profesionales">
+  <div class="d-flex justify-content-center">
+    <div class="formulario rounded col-9 col-md-4 
+        py-3 mt-3 mb-4">
+      <h2 class="title-section text-center mb-3 mt-0">Agendar cita</h2>
+
+      <section class="px-4">
+
+        <label for="" class="form-label text-start">Nombre de la mascota:</label>
+        <input type="text" class="form-control" id="">
+
+        <label for="" class="form-label text-start">Tipo de mascota:</label>
+        <input type="text" class="form-control" id="" placeholder="perro, gato">
+
+        <label for="" class="form-label text-start">Nombre y apellido del dueño:</label>
+        <input type="text" class="form-control" id="">
+
+
+        <label for="" class="form-label text-start">Correo electrónico:</label>
+        <input type="email" class="form-control" id="" aria-describedby="">
+
+        <label for="" class="form-label text-start">Tipo de cita:</label>
+        <select class="form-select" aria-label="Default select example">
+          <option value="1">Primera vez</option>
+          <option selected value="2">Control</option>
+        </select>
+
+        <label for="" class="form-label text-start">Fecha cita:</label>
+        <input type="date" class="form-control" id="" aria-describedby="">
+
+        <label for="" class="form-label text-start">Hora cita:</label>
+        <input type="time" class="form-control" id="" aria-describedby="">
+
+
+
+        <div class="d-flex justify-content-center">
+          <button type="submit" class="btn btn-primary mt-3">Enviar</button>
+        </div>
+      </section>
+    </div>
   </div>
 
-  <h3 class="title-section text-center mb-2 mt-3">Nuestro Equipo</h3>
-  <div class="row container-fluid col-12 col-md 3 justify-content-center">
-    <div class="mx-5 my-3 px-2 col text-center justify-content-center">
-      <img class="rounded-circle w-75" src="../assets/img/medico1.jpg">
-      <h4 class="nombre-doctor mt-3">Mario Pérez</h4>
-      <p class=" fw-bold"> Vet. general y Técnico Especialista en Aves</p>
-      <p>Lorem ipsum dolor sit amet consecte.Lorem ipsum dolor sit amet consecte.</p>
-    </div>
-    <div class="mx-5 my-3 px-2 col text-center justify-content-center">
-      <img class="rounded-circle w-75" src="../assets/img/medico2.jpg">
-      <h4 class="nombre-doctor mt-3">Alina Gomez</h4>
-      <p class=" fw-bold">Vet. Especialista en Comportamiento</p>
-      <p>Lorem ipsum dolor sit amet consecte.Lorem ipsum dolor sit amet consecte.</p>
-    </div>
-    <div class="mx-5 my-3 px-2 col text-center justify-content-center">
-      <img class="rounded-circle w-75" src="../assets/img/medico3.jpg">
-      <h4 class="nombre-doctor mt-3">Roberto Gil</h4>
-      <p class=" fw-bold">Vet. general y Técnico Especialista en Cirugía</p>
-      <p>Lorem ipsum dolor sit amet consecte.Lorem ipsum dolor sit amet consecte.</p>
-    </div>
-    <div class="mx-5 my-3 px-2 col text-center justify-content-center">
-      <img class="rounded-circle w-75" src="../assets/img/medico4.jpg">
-      <h4 class="nombre-doctor mt-3">Nicole Ochoa</h4>
-      <p class=" fw-bold">Técnico de Laboratorio Veterinario Clínico</p>
-      <p>Lorem ipsum dolor sit amet consecte.Lorem ipsum dolor sit amet consecte.</p>
-    </div>
-  </div>
-  </div>
-  </header>
 
   <footer>
     <article class="footfondo">

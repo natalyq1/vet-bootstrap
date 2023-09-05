@@ -17,13 +17,17 @@ html {
 i {
   margin-right: 6px;
 }
+
 i:hover {
   cursor: pointer;
 }
 
-a{
+a {
   cursor: pointer;
+  text-decoration: none;
+  color: var(--purple-color);
 }
+
 a:link {
   text-decoration: none;
   color: none;
@@ -46,8 +50,9 @@ header {
 .header-buttons {
   display: flex;
   flex-direction: column;
-  gap: 1em;
-  padding-left: 2em;
+  justify-content: end;
+  gap: 0;
+  padding-left: 5em;
   /* border: 2px solid green; */
 }
 
@@ -164,18 +169,21 @@ footer {
   background-image: url(../img/fondo.jpg);
   overflow: hidden;
   color: var(--purple-color);
+  border-top: 3px solid #752995e2;
 }
 
 .footfondo {
   background-color: rgba(117, 41, 149, 0.4);
 }
-.media-links{
+
+.media-links {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 3em;
 }
-.contact{
+
+.contact {
   line-height: 8px;
 }
 
@@ -252,27 +260,30 @@ footer {
 }
 
 /*Equipo-------------------------------------------------*/
-
-.nombre-doctor {
-  color: var(--purple-color);
-}
-.services img{
+.services img {
   width: 100px;
   height: 100px;
 }
+
 .products img {
   width: auto;
-    height: 50px;
+  height: 50px;
 }
 
 /*Contacto-------------------------------------------------*/
-.mapa {
-  width: 500px;
-  height: 500px;
+.container-map {
+  display: flex;
+  justify-content: center;
+}
+
+.map {
+  width: 350px;
+  height: 350px;
 }
 
 .formulario {
-  border: 2px solid var(--purple-color);
+  box-shadow: 3px 3px 8px var(--purple-color);
+  color: var(--purple-color);
   background-color: rgba(117, 41, 149, 0.4);
 }
 
@@ -318,8 +329,8 @@ footer {
   }
 
   .agenda-promo {
-  /* border: 3px solid red; */
-  padding: 1em auto;
+    /* border: 3px solid red; */
+    padding: 1em auto;
   }
 
   .agenda-promo img {
@@ -341,17 +352,22 @@ footer {
   .header-buttons i {
     display: flex;
   }
+
   .foot {
     display: flex;
     flex-direction: row;
     gap: 3em;
     justify-content: center;
   }
-  .contact{
+
+  .contact {
     display: block;
+  }
+
+  .mapa {
+    width: 500px;
+    height: 500px;
   }
 }
 
-@media only screen and (min-width: 768px){
-
-}
+@media only screen and (min-width: 768px) {}
