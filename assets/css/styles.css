@@ -112,7 +112,7 @@ header {
 }
 
 .agenda-cita h1 {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   font-weight: 700;
 }
 
@@ -130,6 +130,7 @@ header {
 }
 
 .agenda-promo h1 {
+  display: content;
   font-size: 1.5rem;
   font-weight: 700;
   color: #fff;
@@ -145,6 +146,22 @@ header {
 .title-section {
   color: var(--purple-color);
   font-weight: 700;
+}
+h2{
+  animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
 }
 
 .card-img-top {
@@ -319,24 +336,20 @@ footer {
     justify-content: space-between;
   }
 
-  .agenda {
-    flex-direction: row;
-  }
 
   .agenda-cita {
-    margin: 2em 2em 0 2em;
+    margin: 1em 1em 0 1em;
+    
 
   }
 
   .agenda-promo {
     /* border: 3px solid red; */
-    padding: 1em auto;
+    padding: 1em 3em 1em 1em;
+    margin: auto;
   }
 
-  .agenda-promo img {
-    display: block;
-    border-width: 10px solid var(--white-color);
-  }
+  
 
   .header-buttons {
     padding-left: 0;
@@ -385,4 +398,13 @@ footer {
     .header-buttons i {
       display: flex;
     }
+    .agenda {
+      display: flex;
+      flex-direction: row ;
+    }
+    .agenda-promo img {
+    display: block;
+    
+    border-width: 10px solid var(--white-color);
+  }
 }
