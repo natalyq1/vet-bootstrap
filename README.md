@@ -1,1 +1,2 @@
 # vet-bootstrap
+erase
