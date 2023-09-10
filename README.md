@@ -1,7 +1,15 @@
 # vet-bootstrap
+
+Project of a veterinary made with bootstrap.
+
+To start:
+
 Clone or download .ZIP
+
 npm install
+
 Place on index.hmtl
+
 With the extension Live server,  Open with live server option (ALt+L+Alt+O)
 
 Desktop version:
